@@ -1,0 +1,23 @@
+1. yarn init
+2. yarn add express
+3. yarn add -D @types/express typescript ts-node-dev
+    -D // Instalar como dependência de desenvolvimento
+    @types/express // typescript para express
+    typescript // Instala o typescript
+    ts-node-dev     // biblioteca para rodar a aplicação
+                    // lib que restarta o servidor automaticamente
+4. yarn tsc --init
+    // Init starta as configurações do typescript
+        node src/app.ts NÃO FUNCIONA por que node não entende arquivos de TS
+5. yarn add prisma -D
+    // Instala o prisma como desenvolvimento
+6. yarn prisma Init
+    // Inicia o prisma, criando as pastas prisma/schema.prisma e .env
+7. yarn add dotenv
+    // permite utilizar o "process.env"
+8. yarn add axios
+    // permite 
+9. yarn prisma migrate dev
+    // cria as migrations com o prisma
+10. yarn prisma studio
+    // mostra toda a estrutura de dentro do bd
